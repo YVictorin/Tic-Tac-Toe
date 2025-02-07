@@ -21,8 +21,12 @@ body, html {
     font-size: 3rem;
     font-weight: 800;
     position:  relative;
+    display: block;
 }
 
+.board-row {
+    display: flex;
+}
 
 .board {
     position: absolute;
